@@ -2,7 +2,7 @@
 
 ---
 
-| 🟢 Fácil | 🟡 Intermedio | 🔴 Difícil |
+| Ejercicio 1 | Ejercicio 2 | Ejercicio 3 |
 | :--- | :--- | :--- |
 | **1.** Pide el nombre al usuario con `prompt` y salúdalo con `alert`. | **2.** Pide un número del 1 al 7 y muestra el día de la semana con `switch`. | **3.** **Login:** Si el usuario es "admin", pide clave; si es "123", da acceso. |
 | **4.** Solicita un número y muestra si es positivo o negativo usando `if`. | **5.** Determina si un número es positivo, negativo o cero usando `else if`. | **6.** **Cajero:** Pide un PIN; si es correcto, muestra menú Retirar/Depositar. |
