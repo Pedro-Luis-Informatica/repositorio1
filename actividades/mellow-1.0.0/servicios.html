@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CCED - Servicios</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+    <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
+
+  <!--Bootstrap ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!--vendor css ================================================== -->
+  
+  <link rel="stylesheet" href="css/vendor.css">
+
+  <!--Link Swiper's CSS ================================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!--Link AOS's CSS ================================================== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Style Sheet ================================================== -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+
+  
+    <nav id="primary-header" class="navbar navbar-expand-lg py-4">
+        <div class="container-fluid padding-side">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/CCED.png" class="logo img-fluid" data-cced-logo>
+            </a>
+            <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
+              <svg class="navbar-icon" width="60" height="60">
+                <use xlink:href="#navbar-icon"></use>
+              </svg>
+            </button>
+            <div class="header-bottom offcanvas offcanvas-end " id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+              <div class="offcanvas-header px-4 pb-0">
+                <button type="button" class="btn-close btn-close-black mt-2" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
+              </div>
+              <div class="offcanvas-body align-items-center justify-content-center">
+                <div class="search d-block d-lg-none m-5">
+                  <form class=" position-relative">
+                    <input type="text" class="form-control bg-secondary border-0 rounded-5 px-4 py-2" placeholder="Search...">
+                    <a href="#" class="position-absolute top-50 end-0 translate-middle-y p-1 me-3">
+                      <svg class="" width="20" height="20">
+                        <use xlink:href="#search"></use>
+                      </svg>
+                    </a>
+                  </form>
+                </div>
+                <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+                <li class="nav-item px-3">
+                  <a class="nav-link p-0" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link p-0" href="sobrenosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link active p-0" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link p-0" href="testimonios.html">Opiniones</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link p-0" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item px-3 dropdown">
+                  <a class="nav-link p-0 dropdown-toggle text-center " data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Más</a>
+                  <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
+                    <li><a href="personal.html" class="dropdown-item ">Personal</a>
+                    </li>
+                    <li><a href="eventos.html" class="dropdown-item ">Eventos</a>
+                    </li>
+                    <li><button class="dropdown-item" id="darkModeBtn">Invertir Colores</button>
+                    </li>
+                  </ul>
+                </li>
+                </ul>
+              </div>
+            </div>
+            <div class="search d-lg-block d-none">
+              <form class=" position-relative">
+                <input type="text" class="form-control bg-secondary border-0 rounded-5 px-4 py-2" placeholder="Search...">
+                <a href="#" class="position-absolute top-50 end-0 translate-middle-y p-1 me-3">
+                  <svg class="" width="20" height="20">
+                    <use xlink:href="#search"></use>
+                  </svg>
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid padding-side">
+        <div class="d-flex rounded-5" style="background-image: url(IMAGES/direccion.jpeg); background-size: cover; background-repeat: no-repeat; height: 85vh; background-position: center; margin-bottom: 90px;">
+          <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
+            <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+        <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+  
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <h1 class="big big-2">¡Bienvenidos al Centro Cristiano de Educación para el Desarrollo!
+            </p>
+          </div>
+        <div>
+      </div>
+
+      <br><br><br>
+      
+      <!--primaria-->
+      <section class="separacion">
+        <div class="d-flex rounded-5" style="background-image: url(IMAGES/nivelprim.png); background-size: cover; background-repeat: no-repeat; height: 55vh; background-position: center;">
+          <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
+            <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1"></div>
+            <h2 class="display-1 fw-normal text-white" id="s1">Nivel Inicial y Primaria</h2>
+          </div>
+        </div>
+
+        <br><br>
+
+
+        <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+          <div class="row align-items-start mt-3 mt-lg-5">
+            <div class="col-lg-6">
+              <div class="p-5">
+                <p><font style="vertical-align: inherit;">
+                   <font style="vertical-align: inherit;"> 
+                   </font>En nuestra primaria, cultivamos un ambiente seguro, acogedor y
+                   lleno de valores que forman a niños felices, responsables y con ganas 
+                   de aprender. Aquí, cada niño es único y recibe la atención personalizada 
+                   que merece para desarrollar su máximo potencial académico, social y 
+                   espiritual.
+                  </font></p>
+
+                  <p><font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;"> 
+                    </font>Al elegir nuestra primaria, estás brindando a tu hijo 
+                    un espacio donde crecerá en conocimiento, fe y confianza, preparándose 
+                    para un futuro lleno de oportunidades y éxito. ¡Únete a nuestra familia 
+                    educativa y acompáñanos a formar a los líderes del mañana!
+                   </font></p>
+              </div>
+              <img src="images/prim1.jpeg" alt="imagen" class="img-fluid rounded-4 mt-4">
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <img src="images/prim2.jpeg" alt="imagen" class="img-fluid rounded-4">
+              <img src="images/prim3.jpeg" alt="imagen" class="img-fluid rounded-4 mt-4">
+    
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    <!--area verde-->
+  <section id="area verde" class="padding-medium pt-0" style="margin-top: 7rem;">
+    <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <br><br>
+
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <h1 class="big big-2">Área verde de nuestro centro</h1>
+            <br>
+          <p>Un espacio natural lleno de vida y tranquilidad, donde el verde de los 
+           árboles y plantas invita a la reflexión, el descanso y el aprendizaje al 
+           aire libre. Aquí, cada rincón es un refugio de paz que inspira a 
+           estudiantes y docentes a cuidar y valorar el entorno que nos rodea.</p>
+         </div>
+            <br><br><br>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/av1.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/av2.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/av3.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-8 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/av4.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-4 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/av5.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--secundaria-->
+  <section class="separacion">
+    <div class="d-flex rounded-5" style="background-image: url(IMAGES/nivsecu.png); background-size: cover; background-repeat: no-repeat; height: 55vh; background-position: center;">
+      <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
+        <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1"></div>
+        <h2 class="display-1 fw-normal text-white" id="s2">Nivel Secundario</h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+    <div class="row align-items-start mt-3 mt-lg-5">
+      <div class="col-lg-6 order-lg-1">
+        <img src="IMAGES/secu2.jpeg" alt="imagen" class="img-fluid rounded-4">
+        <img src="IMAGES/secu3.jpeg" alt="imagen" class="img-fluid rounded-4 mt-4">
+      </div>
+      <div class="col-lg-6 order-lg-2">
+        <div class="p-5">
+          <p>
+            En esta etapa fundamental, acompañamos a nuestros estudiantes 
+            en el camino hacia su madurez académica, emocional y espiritual, 
+            brindándoles las herramientas necesarias para enfrentar los retos 
+            del mundo actual con fe, responsabilidad y liderazgo.
+          </p>
+          <p>
+            Invitamos a las familias a ser parte activa de esta comunidad 
+            educativa que forma no solo estudiantes, sino ciudadanos íntegros 
+            y comprometidos con un futuro mejor.
+          </p>
+        </div>
+        <img src="IMAGES/secu1.jpeg" alt="imagen" class="img-fluid rounded-4 mt-4">
+      </div>
+    </div>
+  </div>
+
+  <!--patio escolar-->
+  <section id="patio escolar" class="padding-medium pt-0" style="margin-top: 7rem;">
+    <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+
+      <div class="row mt-5">
+        <div class="col-md-12 text-center">
+          <h1 class="big big-2">Patio Escolar</h1>
+          <br>
+          <p>Un espacio natural lleno de vida y tranquilidad, donde el verde de los 
+           árboles y plantas invita a la reflexión, el descanso y el aprendizaje al 
+           aire libre. Aquí, cada rincón es un refugio de paz que inspira a 
+           estudiantes y docentes a cuidar y valorar el entorno que nos rodea.</p>
+         </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/secu1.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/secu2.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/secu3.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-8 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/secu4.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-4 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/secu5.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--tecnico profesional-->
+  <section class="separacion">
+    <div class="d-flex rounded-5" style="background-image: url(IMAGES/tecprof.png); background-size: cover; background-repeat: no-repeat; height: 55vh; background-position: center;">
+      <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
+        <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1"></div>
+        <h2 class="display-1 fw-normal text-white" id="s3">Técnico Profesional</h2>
+      </div>
+    </div>
+  </section>
+
+    <!--informatica-->
+    <div class="informatica" style="margin-top: 7rem;">    
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+      
+          <div class="col-md-12 text-center">
+           <h1 class="big big-2" id="ar1">Área de Informática</h1>
+           <br>
+           <h2 class="mb-4">Técnico en Desarrollo y administración de aplicaciones informáticas</h2>
+           <p>"La informática transforma ideas en soluciones que cambian el mundo"</p>
+          </div>
+
+      <div class="col-lg-4">
+        <img src="IMAGES/labinfA.jpeg" class="img-fluid" alt="Edificio profesional">
+      </div>
+
+      <div class="col-lg-8 content">
+        <p class="fst-italic py-3">
+          El Área Técnica de Informática está orientada a formar profesionales capaces 
+          de diseñar, implementar y mantener sistemas informáticos, desarrollando 
+          habilidades en programación, redes, soporte técnico y seguridad digital.
+        </p>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><strong>Encargados:</strong> Pedro Luis Valenzuela y Santos Mateo</li>
+              <li><strong>Ubicación:</strong> Edificio Tec. Profesional, aulas y laboratorios de Informática</li>
+              <li><strong>Certificaciones:</strong> Técnico en Desarrollo y administración de aplicaciones informáticas</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><strong>Especialidades:</strong> Programación y Redes</li>
+              <li><strong>Prácticas Profesionales:</strong> Convenios con empresas tecnológicas locales</li>
+              <li><strong>Año de Creación:</strong> 1996</li>
+              <li><strong>Horario de Atención:</strong> Lunes a viernes, 8:00 AM a 2:30 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+     </div>
+    
+    <!-- correspondiente--> 
+    <section id="blog" class="padding-medium pt-0">
+      <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-post position-relative overflow-hidden rounded-4">
+              <img src="IMAGES/inf1.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+              <div class="position-absolute bottom-0 p-5 text-white">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-post position-relative overflow-hidden rounded-4">
+              <img src="IMAGES/inf2.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+              <div class="position-absolute bottom-0 p-5 text-white">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-post position-relative overflow-hidden rounded-4">
+              <img src="IMAGES/inf3.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+              <div class="position-absolute bottom-0 p-5 text-white">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-8 mb-4">
+            <div class="blog-post position-relative overflow-hidden rounded-4">
+              <img src="IMAGES/inf4.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+              <div class="position-absolute bottom-0 p-4 text-white">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="blog-post position-relative overflow-hidden rounded-4">
+              <img src="IMAGES/inf5.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+              <div class="position-absolute bottom-0 p-5 text-white">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- enfermería-->
+    <div class="enfermería">
+        <section class="ftco-section ftco-project" id="projects-section">
+          <div class="container">
+            <div class="row justify-content-center pb-5">
+              <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
+                <h1 class="big big-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" id="ar2">Área de Enfermería</font></font></h1>
+                <br>
+                <h2 class="mb-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Técnico en Cuidados de enfermería y promoción de la salud</font></font></h2>
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Donde hay amor por la enfermería hay amor por la humanidad"</font></font></p>
+              </div>
+
+        <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="10">
+
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+              <img src="IMAGES/enfportada.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 content">
+              <p class="fst-italic py-3">
+                El Área Técnica de Enfermería prepara a los estudiantes para desempeñarse 
+                en centros de salud, hospitales, clínicas, escuelas y en la comunidad. 
+                Aprenden a realizar cuidados básicos, asistir en emergencias, colaborar 
+                en campañas de salud y ofrecer apoyo emocional tanto a pacientes como a 
+                sus familias. El enfoque es integral, promoviendo hábitos saludables y 
+                el autocuidado desde la etapa escolar.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Encargados:</strong> <span>Damiana Contreras y Kenia de la Rosa</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Ubicación:</strong> <span>Edificio Tec. Profesional, aulas de Enfermería</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Certificaciones:</strong> <span>Técnico en Cuidados de enfermería y promoción de la salud</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Especialidades:</strong> <span>Cuidados en enfermería, promoción para la salud y primeros auxilios</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Prácticas Profesionales:</strong> <span>Clinicas y hospitales pertenecientes a la región</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Año de Creación:</strong> <span>1996</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Horario de Atención:</strong> <span>Lunes a viernes, 8:00 AM a 2:30 PM</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+      </div>
+    <div>
+
+      <!-- correspondiente-->
+      <section id="blog" class="padding-medium pt-0">
+        <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+          <div class="row mt-5">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="blog-post position-relative overflow-hidden rounded-4">
+                <img src="IMAGES/enfsala.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+                <div class="position-absolute bottom-0 p-5 text-white">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="blog-post position-relative overflow-hidden rounded-4">
+                <img src="IMAGES/enfaula.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+                <div class="position-absolute bottom-0 p-5 text-white">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="blog-post position-relative overflow-hidden rounded-4">
+                <img src="IMAGES/enfportada.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+                <div class="position-absolute bottom-0 p-5 text-white">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-8 mb-4">
+              <div class="blog-post position-relative overflow-hidden rounded-4">
+                <img src="IMAGES/enfaula2.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+                <div class="position-absolute bottom-0 p-4 text-white">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="blog-post position-relative overflow-hidden rounded-4">
+                <img src="IMAGES/enfcartel.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+                <div class="position-absolute bottom-0 p-5 text-white">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- contabilidad-->
+    <div class="contabilidad"> 
+      <section class="ftco-section ftco-project" id="projects-section">
+        <div class="container">
+          <div class="row justify-content-center pb-5">
+            <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
+              <h1 class="big big-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" id="ar3">Área de Contabilidad</font></font></h1>
+              <br>
+              <h2 class="mb-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Técnico en Gestión administrativa y tributaria</font></font></h2>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"La contabilidad es el lenguaje de los negocios y la clave para construir un futuro sólido"</font></font></p>
+            </div>
+
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="10">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="IMAGES/cont4.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <p class="fst-italic py-3">
+              El Área Técnica de Enfermería prepara a los estudiantes para desempeñarse 
+              en centros de salud, hospitales, clínicas, escuelas y en la comunidad. 
+              Aprenden a realizar cuidados básicos, asistir en emergencias, colaborar 
+              en campañas de salud y ofrecer apoyo emocional tanto a pacientes como a 
+              sus familias. El enfoque es integral, promoviendo hábitos saludables y 
+              el autocuidado desde la etapa escolar.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Encargados:</strong> <span>Cristal y Sabrina</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ubicación:</strong> <span>Edificio Tec. Profesional, aulas de Contabilidad</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Certificaciones:</strong> <span>Técnico en Cuidados de enfermería y promoción de la salud</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Especialidades:</strong> <span>Cuidados en enfermería, promoción para la salud y primeros auxilios</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Prácticas Profesionales:</strong> <span>Clinicas y hospitales pertenecientes a la región</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Año de Creación:</strong> <span>1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Horario de Atención:</strong> <span>Lunes a viernes, 8:00 AM a 2:30 PM</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  <div>
+    
+  <!-- correspondiente -->
+  <section id="blog" class="padding-medium pt-0">
+    <div class="container-fluid padding-side aos-init aos-animate" data-aos="fade-up">
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/cont1.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/cont2.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/cont3.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-8 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/escaleras.png" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-4 text-white">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="IMAGES/cont4.jpeg" class="blog-img img-fluid rounded-4" alt="imagen">
+            <div class="position-absolute bottom-0 p-5 text-white">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <section id="footer" class="footer-main">
+    <div class="container-fluid padding-side padding-small pt-0" data-aos="fade-up">
+      <footer class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <img src="images/CCED.png" alt="logo-footer" class="img-fluid" data-cced-logo>
+          <p class="mt-3">CCED, una comunidad que crece, aprende y sueña unida.</p>
+          <ul class="social-links d-flex flex-wrap list-unstyled mt-4 mb-0">
+            <li>
+              <a href="https://www.facebook.com/cced1995">
+                <svg class="social me-4" width="20" height="20">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ccedoficial">
+                <svg class="social me-4" width="20" height="20">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="social me-4" width="20" height="20">
+                  <use xlink:href="#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Solicita  información</h4>
+          <p>Envía tus datos y te ofreceremos información detallada sobre nuestros servicios.</p>
+          <form class=" position-relative">
+            <input type="text" class="form-control px-4 py-3 bg-transparent mb-3" placeholder="Nombre">
+            <input type="email" class="form-control px-4 py-3 bg-transparent" placeholder="Email">
+            <div class="d-grid">
+              <button href="#" class="btn btn-arrow btn-primary mt-3">
+                <span>Enviar<svg width="18" height="18">
+                    <use xlink:href="#arrow-right"></use>
+                  </svg></span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Contáctanos</h4>
+          <ul class="nav flex-column">
+            <li class="location text-capitalize d-flex align-items-center">
+              <svg class="color me-1" width="20" height="20">
+                <use xlink:href="#location"></use>
+              </svg>CCED
+            </li>
+            <li class="text-capitalize ms-4">
+              San Juan, San Juan de la Maguana
+            </li>
+            <li class="text-capitalize ms-4">
+              Corbano Sur, Barrio Nuevo
+            </li>
+            <li class="text-capitalize ms-4">
+              C/ Pedro Henrriquez Ureña #82
+            </li>
+            <li class="phone text-capitalize d-flex align-items-center mt-2">
+              <svg class="color me-1" width="20" height="20">
+                <use xlink:href="#phone"></use>
+              </svg>+1 (809)927-5030
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <hr class="text-black">
+    <div class="container-fluid padding-side padding-small" data-aos="fade-up">
+      <footer class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Links rápidos</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="index.html" class="p-0 "> Inicio </a></li>
+            <li class="nav-item"><a href="sobrenosotros.html" class="p-0 "> Sobre Nosotros </a></li>
+            <li class="nav-item"><a href="servicios.html" class="p-0 "> Servicios </a></li>
+            <li class="nav-item"><a href="testimonios.html" class="p-0 "> Opiniones</a></li>
+            <li class="nav-item"><a href="eventos.html" class="p-0 "> Eventos</a></li>
+            <li class="nav-item"><a href="personal.html" class="p-0 "> Personal</a></li>
+            <li class="nav-item"><a href="contacto.html" class="p-0 "> Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Servicios</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="servicios.html #s1" class="p-0 "> Inicial </a></li>
+            <li class="nav-item"><a href="servicios.html #s1" class="p-0 "> Primaria </a></li>
+            <li class="nav-item"><a href="servicios.html #s2" class="p-0 "> Secundaria </a></li>
+            <li class="nav-item"><a href="servicios.html #s3" class="p-0 "> Técnico Profesional</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <p class="m-0">© Copyright 2025 CCED </p>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+
+
+
+   <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i>
+        <img src="images/back-to-top.png" alt=""></a>   
+
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+
+
+
+
+<!-- jQuery (requerido) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Counter-Up 2 -->
+<script src="https://cdn.jsdelivr.net/npm/jquery.counterup2@1.0.7/dist/index.min.js"></script>
+
+
+
+</body>
+</html>

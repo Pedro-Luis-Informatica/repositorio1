@@ -1,0 +1,117 @@
+[
+  {
+    "page": "index.html",
+    "location": "hero",
+    "context": "CCED - Centro Capilar y Estético Dermatológico. Especialistas en salud capilar y estética dermatológica."
+  },
+  {
+    "page": "index.html",
+    "location": "about-us",
+    "context": "Somos un centro especializado en el cuidado de la salud capilar y estética dermatológica, dedicados a brindar soluciones integrales y personalizadas para cada uno de nuestros pacientes."
+  },
+  {
+    "page": "index.html",
+    "location": "services",
+    "context": "Ofrecemos una amplia gama de servicios diseñados para satisfacer las necesidades de nuestros pacientes en salud capilar y estética dermatológica."
+  },
+  {
+    "page": "index.html",
+    "location": "services-list",
+    "context": "Trasplante Capilar, Plasma Rico en Plaquetas (PRP), Mesoterapia Capilar, Tratamientos Faciales, Tratamientos Corporales"
+  },
+  {
+    "page": "index.html",
+    "location": "personal",
+    "context": "Nuestro equipo está formado por profesionales altamente capacitados y con amplia experiencia en el campo de la dermatología y la salud capilar."
+  },
+  {
+    "page": "index.html",
+    "location": "eventos",
+    "context": "Mantente al día con nuestros últimos eventos y talleres."
+  },
+  {
+    "page": "index.html",
+    "location": "testimonios",
+    "context": "Lee lo que nuestros pacientes dicen sobre su experiencia en CCED."
+  },
+  {
+    "page": "index.html",
+    "location": "contacto",
+    "context": "Contáctanos para programar una cita o resolver cualquier duda que tengas."
+  },
+  {
+    "page": "sobrenosotros.html",
+    "location": "quienes-somos",
+    "context": "En CCED, nos apasiona ayudar a nuestros pacientes a alcanzar su máximo potencial de belleza y bienestar. Combinamos la última tecnología con un enfoque humano y personalizado para ofrecer resultados excepcionales."
+  },
+  {
+    "page": "sobrenosotros.html",
+    "location": "mision",
+    "context": "Nuestra misión es proporcionar servicios de salud capilar y estética dermatológica de la más alta calidad, superando las expectativas de nuestros pacientes en cada visita."
+  },
+  {
+    "page": "sobrenosotros.html",
+    "location": "vision",
+    "context": "Nuestra visión es ser el centro de referencia en salud capilar y estética dermatológica, reconocido por nuestra excelencia clínica, innovación y compromiso con el paciente."
+  },
+  {
+    "page": "servicios.html",
+    "location": "inicial",
+    "context": "Inicial: Diagnóstico capilar, Tratamientos preventivos, Asesoramiento personalizado."
+  },
+  {
+    "page": "servicios.html",
+    "location": "primaria",
+    "context": "Primaria: Tratamientos para la caída del cabello, Manejo de la caspa y la dermatitis seborreica, Microinjerto capilar."
+  },
+  {
+    "page": "servicios.html",
+    "location": "secundaria",
+    "context": "Secundaria: Cirugía capilar avanzada, Reconstrucción capilar, Tratamientos de mantenimiento."
+  },
+  {
+    "page": "servicios.html",
+    "location": "tecnico-profesional",
+    "context": "Técnico Profesional: Asesoramiento en imagen capilar, Tratamientos especializados para diferentes tipos de cabello, Cuidado del cuero cabelludo."
+  },
+  {
+    "page": "eventos.html",
+    "location": "eventos-seccion",
+    "context": "Mantente informado sobre nuestros próximos eventos y talleres. ¡Inscríbete y participa!"
+  },
+  {
+    "page": "eventos.html",
+    "location": "eventos-contenido",
+    "context": "demostraron talento, creatividad y mucho conocimiento en cada proyecto presentado. ¡El futuro está en buenas manos!"
+  },
+  {
+    "page": "testimonios.html",
+    "location": "testimonios-seccion",
+    "context": "Descubre las historias de éxito de nuestros pacientes y cómo CCED ha transformado su vida."
+  },
+  {
+    "page": "personal.html",
+    "location": "personal-seccion",
+    "context": "Conoce a nuestro equipo de dermatólogos, tricólogos y especialistas en estética. Profesionales dedicados a tu bienestar."
+  },
+   {
+    "page": "personal.html",
+    "location": "personal-nombre",
+    "context": "Simón Sánchez"
+  },
+  {
+    "page": "personal.html",
+    "location": "personal-cargo",
+    "context": "segundo ciclo de secundaria"
+  },
+  {
+    "page": "contacto.html",
+    "location": "contacto-info",
+    "context": "Visítanos en nuestra clínica, llámanos o envíanos un correo electrónico. Estamos aquí para ayudarte."
+  },
+  {
+    "page": "contacto.html",
+    "location": "contacto-form",
+    "context": "Déjanos tus datos y nos pondremos en contacto contigo a la brevedad."
+  }
+]
